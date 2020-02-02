@@ -34,7 +34,16 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+## Links
+
+- https://github.com/Rocketseat/bootcamp-gostack-desafio-02
+- https://github.com/Rocketseat/bootcamp-gostack-desafio-03
+- https://github.com/Rocketseat/bootcamp-gostack-desafio-09
+- https://github.com/Rocketseat/bootcamp-gostack-desafio-10
+
 ## :rocket: Sobre o desafio
+
+
 
 A aplicação que iremos dar início ao desenvolvimento a partir de agora é um app para uma transportadora fictícia, o FastFeet.
 
