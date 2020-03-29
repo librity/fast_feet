@@ -1,11 +1,10 @@
 module.exports = {
   env: {
-    node: true,
+    browser: true,
     es6: true,
   },
   extends: [
     'airbnb-base',
-    'prettier'
   ],
   globals: {
     Atomics: 'readonly',
@@ -18,13 +17,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
-    'prettier'
   ],
   rules: {
-    "prettier/prettier": "error",
-    "class-methods-use-this": "off",
-    "no-param-reassign": "off",
-    camelcase: "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
   },
 };

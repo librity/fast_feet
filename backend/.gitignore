@@ -80,8 +80,17 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# react / gatsby 
-public/
+# rollup.js default build output
+dist/
+
+# Uncomment the public line if your project uses Gatsby
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# https://create-react-app.dev/docs/using-the-public-folder/#docsNav
+# public
+
+# Storybook build outputs
+.out
+.storybook-out
 
 # vuepress build output
 .vuepress/dist
@@ -95,7 +104,11 @@ public/
 # DynamoDB Local files
 .dynamodb/
 
-# tmp folder contents
-/tmp/uploads/*
+# Temporary folders
+tmp/
+temp/
+
+# SQLite databases
+*.sqlite
 
 # End of https://www.gitignore.io/api/node
